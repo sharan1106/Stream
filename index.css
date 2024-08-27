@@ -1,0 +1,327 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+header{
+    width: 100%;
+    display: flex;
+    background-color: #040f13;
+    box-shadow: 2px 2px 10px 2px rgb(8, 7, 7);
+    height: 125px;
+    align-items: center;
+    padding: 10px 5px;
+}
+body{
+    margin: 0;
+    background-color: #040b21;
+
+}
+.stream-logo{
+    width: 20%;
+}
+img{
+    height: 60px;
+    padding-left: 20px;
+}
+nav{
+    width: 70%;
+    display: flex;
+}
+ul{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 19px;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#button-submit{
+    margin-left: 600px;
+}
+button{
+    color: white;
+    background-color: #2f7216;
+    width: 90px;
+    height: 35px;
+    border-radius: 9px;
+    transition: all 250ms;
+    margin-top: 10px;
+    
+}
+#inreset{
+    margin-left: 150px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #2f7216;
+    color: white;
+}
+#inreset:hover{
+    background-color: white;
+    color: #2f7216;
+    border: 1px solid #2f7216 ease-in-out;
+}
+button:hover{
+    background-color: white;
+    color: #2f7216;
+    border: 1px solid #2f7216 ease-in-out;
+
+}
+fieldset{
+    background-color:blanchedalmond;
+}
+.label{
+    margin-left: 600px;
+    font-size: larger;
+    font-weight: bolder;
+}
+#inname{
+    margin-left: 134px;
+    margin-bottom: 10px;
+
+    
+}
+#inemail{
+    margin-left: 110px;
+    margin-bottom: 10px;
+}
+#inre-email{
+    margin-bottom: 10px;
+    margin-left: 6px;
+}
+#inpass{
+    margin-left: 74px;
+}
+/* POPULAR  GAMES */
+.popgames{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 3px;
+    font-family: "Freeman", sans-serif;
+    color: white;
+}
+/* card css */
+.card-container{
+    display: flex;
+    justify-content: center;
+}
+.card-games{
+    background-color: white;
+    width: 220px;
+    height: 400px;
+    margin: 20px;
+    border-radius: 15px;
+    transition: transform 0.7s;
+}
+/* games images css */
+.card-images{
+    /* background-color: aquamarine; */
+    height: 160px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+    border: 1px solid black;
+}
+/* game trailer */
+h3{
+    font-size: x-large;
+    margin-left: 10px;
+    color: white;
+}
+/* headdings of the games  */
+h2{
+    font-family: "REM", sans-serif;
+    text-align: center;
+}
+/* paragraph tag of cards */
+p{
+    padding-left: 10px;
+    margin-top: 3px;
+}
+/* DOTA 2   */
+.game1{
+    background-image:url(./images/dota\ 2\ poster.jpg) ;
+}
+/* cyberpunk */
+.game2{
+    background-image:url(./images/cyberpunk\ poster.jpg) ;
+}
+/* pubg */
+.game3{
+    background-image: url(./images/pubg\ poster.jpg);
+}
+/* dayz */
+.game4{
+    background-image: url(./images/dayz.png);
+}
+/* dead byday light */
+.game5{
+    background-image: url(./images/dead\ by\ daylight\ poster.jpg);
+}
+/* warframe */
+.game6{
+    background-image: url(./images/warframe\ poster.png);
+}
+/* pubg triler */
+#pubg-video{
+    height: 900px;
+    width: 100%;
+}
+/* all sports */
+.cat1{
+    background-image: url(https://store.steampowered.com/categories/homepageimage/category/exploration_open_world?cc=us&l=english);
+}
+/* Action  */
+.cat2{
+    background-image: url(https://store.steampowered.com/categories/homepageimage/category/action?cc=us&l=english);
+}
+/* free to play */
+.cat3{
+    background-image: url(https://store.steampowered.com/categories/homepageimage/freetoplay?cc=us&l=english);
+}
+/* hover for cards */
+.card-games:hover{
+    transform: translateY(-20px);
+    color: white;
+    background-color: black;
+    box-shadow: 1px 1px 3px 1px white;
+}
+/* ready or note */
+.game7{
+    background-image: url(./images/ready\ or\ not\ poster.jpg);
+}
+
+.game8{
+    background-image: url(https://image.api.playstation.com/vulcan/ap/rnd/202108/0410/2odx6gpsgR6qQ16YZ7YkEt2B.png);
+}
+
+.game9{
+    background-image: url(https://pbs.twimg.com/media/F5_2zaLaIAAqHOG.jpg:large);
+}
+
+/* categories-midile-game-image */
+#gamepic2{
+    height: 350px;
+    width: 100%;
+}
+/* counter strike 2 */
+.game10{
+    background-image: url(https://cdn.sanity.io/images/hdokr93d/production/5c57ed5aba24492b9460f49fda8f9a220b0a8236-1200x1200.jpg?rect=150,0,900,1200&w=600&h=800);
+}
+/* killing flore 3 */
+.game11{
+    background-image: url(https://cdn.akamai.steamstatic.com/steam/apps/1430190/header.jpg?t=1714487538);
+}
+/* malvinas */
+.game12{
+    background-image: url(https://cdn.akamai.steamstatic.com/steam/apps/2584740/header.jpg?t=1716392212);
+}
+/* gta 6 trilar */
+#gta6-trilar{
+    height: 900px;
+    width: 100%;
+}
+/* GTA 6 */
+.game13{
+    background-image: url(https://www.hindustantimes.com/ht-img/img/2023/11/06/550x309/meme-1-5_1680835922484_1699241160882.jpeg);
+}
+/* destiny 2 */
+.game14{
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/c/c1/Destiny_2-_The_Final_Shape_cover_art.png);
+}
+/* fall out 76 */
+.game15{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6O6BP3nfjlP-CTC0HNyLYZtULIFYe5Aggsw6zv6ieRw&s);
+}
+/* dave the driver */
+.game16{
+    background-image: url(https://image.api.playstation.com/vulcan/ap/rnd/202401/2508/f194dc023adef481689d90db93f343b73f5b4c5741925556.png);
+}
+/* gost of tsushima */
+.game17{
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/b/b6/Ghost_of_Tsushima.jpg);
+}
+/* the elder scrolls */
+.game18{
+    background-image: url(https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000019006/677cd07665c2dc356377d094959c0171675a27469af9edcc1e70d91f4857ff11);
+}
+/* call of duty warzone */
+.game19{
+    background-image: url(https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/store/games/wz/overview/WZPLP_Hero.webp);
+}
+/* sims-4 */
+.game20{
+    background-image: url(./images/sims\ 4\ poster.jpg);
+}
+/* world of war ship */
+.game21{
+    background-image: url(./images/world\ of\ war\ ship.jpg);
+}
+/* undawn */
+.game22{
+    background-image: url(./images/undawn\ poster.jpg);
+}
+/* albion online */
+.game23{
+    background-image: url(./images/albion\ online.jpg);
+}
+/* guild war 2 */
+.game24{
+    background-image: url(./images/guild\ war\ 2.jpg);
+}
+/* lol */
+.game25{
+    background-image: url(./images/league\ of\ legends.jpg);
+}
+/* about logo */
+#about-logo{
+    height: 200px;
+    width: 400px;
+    margin-left: 300px;
+}
+/* about 1st para */
+#a-p1{
+    font-size: xx-large;
+    color: white;
+    margin-left: 300px;
+    padding-bottom: 90px;
+}
+#a-video1{
+    height: 900px;
+    width: 100%;
+}
+
+#a-h1{
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+#a-p2{
+    text-align: center;
+    color: white;
+    font-size:larger;
+}
+
+#a-link{
+    align-items: center;
+}
+/* footer-image */
+#footer-image1{
+    height: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+/* footer-para 1st line */
+#footer-p1{
+    color: white;
+    font-size:x-large;
+    margin-left: 105px;
+    padding-top: 10px;
+}
+

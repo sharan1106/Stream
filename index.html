@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Freeman&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=REM:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+</head>
+<body>
+    <header>
+        <div class="stream-logo">
+            <img src="https://store.cloudflare.steamstatic.com/public/shared/images/header/logo_steam.svg?t=962016" alt="stream">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="./categories.html">CATEGORIES</a></li>
+                <!-- <li><a href="./comunity.html">COMMUNITY</a></li> -->
+                <li><a href="./about.html">ABOUT</a></li>
+                <li><a href="./rpg.html">RPG</a></li>
+            </ul>
+            <a href="./index.html"><button>LOGIN</button></a>
+        </nav>
+    </header>
+    <main>
+        <form action="">
+        <fieldset>
+            <label class="label" for="name">Name</label>
+            <input id="inname" type="text" placeholder="ENTER YOUR NAME" id="name" required>
+            <br>
+            <label class="label" for="email">E-MAIL</label>
+            <input id="inemail" type="email" placeholder="ENTER YOUR E-MAIL" id="email" required>
+            <br>
+            <label class="label" for="conemail">RE-ENTER E-MAIL</label>
+            <input id="inre-email" type="email" placeholder="RE-ENTER YOUR E-MAIL" id="conemail" required>
+            <br>
+            <label class="label" for="password">PASSWORD</label>
+            <input id="inpass" type="password" placeholder="ENTER YOUR PASSWORD" id="password" required>
+            <br>
+            <button id="button-submit">SUBMIT</button>
+            <input id="inreset" type="reset">
+        </fieldset>
+    </form>
+    <h1 class="popgames">POPULAR  GAMES</h1>
+        <section class="card-container">
+            <div class="card-games">
+                <div class="card-images game1"></div>
+                <h2>D O T A 2</h2>
+                <p>Dota 2 is a 2013 multiplayer online battle arena video game by
+                 Valve. The game is a sequel to Defense of the Ancients, a community-created mod for Blizzard Entertainment's Warcraft III: Reign of Chaos</p>
+            </div>
+            <div class="card-games">
+                <div class="card-images game2"></div>
+                <h2>CYBERPUNK</h2>
+                <p>Cyberpunk 2077 is a 2020 action role-playing video game developed by CD Projekt Red, and published by CD Projekt, and based on Mike Pondsmith's Cyberpunk 
+                tabletop game series. The plot is set in the fictional metropolis of Night City, California, within the dystopian Cyberpunk universe</p>
+            </div>
+            <div class="card-games">
+                <div class="card-images game3"></div>
+                <h2>PUBG</h2>
+                <p>PUBG: Battlegrounds is a battle
+                 royale game developed by PUBG Studios and published by Krafton. The game, which was  Battle Royale is based on previous mods created by Brendan "PlayerUnknown" Greene for other games, and expanded into a standalone
+                game </p>
+            </div>
+        </section>
+        <section class="card-container">
+            <div class="card-games">
+                <div class="card-images game4"></div>
+                <h2>DAYZ</h2>
+                <p>DayZ is a multiplayer only survival video game developed and 
+                published by Bohemia Interactive. It is the standalone game based on the mod of the same name for Arma 2</p>
+            </div>
+            <div class="card-games">
+                <div class="card-images game5"></div>
+                <h2>DEAD BY DAYLIGHT</h2>
+                <p>Dead by Daylight is an online asymmetric multiplayer 
+                survival horror video game developed and published by Canadian studio Behaviour Interactive</p>
+            </div>
+            <div class="card-games">
+                <div class="card-images game6"></div>
+                <h2>WARFRAME</h2>
+                <p>Warframe is a free-to-play action role-playing third-person shooter multiplayer online game developed and published by Digital Extremes</p>
+            </div>
+        </section>
+        <h3>GAME TRAILER</h3>
+        <video id="pubg-video" src="./videos/PUBG___Erangel_Classic_-_Gameplay_Trailer(1080p).mp4" autoplay muted repet ></video>
+        <footer>
+            <hr>
+            <img id="footer-image1" src="https://store.akamai.steamstatic.com/public/images/footerLogo_valve_new.png" alt="">
+            <p id="footer-p1">
+                © 2024 Valve Corporation. All rights reserved. All trademarks are property of their respective owners in the US and other countries. <br>
+                VAT included in all prices where applicable.   Privacy Policy   |   Legal   |   Steam Subscriber Agreement   |   Refunds   |   Cookies
+            </p>
+                <hr>
+        </footer>
+</body>
+</html>
